@@ -11,9 +11,8 @@ header{
     align-items: center;
     justify-content: center;
 
-    gap: 380px;
-    padding: 18px;
-    
+    gap: 300px;
+    padding: 1px;  
 }
 
 a{
@@ -42,14 +41,25 @@ nav{
     display:flex;
     flex-direction: row;
     
-
     gap: 40px;
+}
+
+p{
+    color:green;
 }
 
 .content{
     display:flex;
     flex-direction: column;
     justify-content: end;
+
+    font-size: 20px;
+}
+
+.buy{
+    a{
+        color: goldenrod;
+    }
 }
 
 .gta6{
