@@ -1,0 +1,177 @@
+
+body{
+   width: 1024px;
+   background-color: rgba(0, 0, 0, 0.929);
+   font-family: Arial, Helvetica, sans-serif;
+
+   margin: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 150px; 
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+    gap: 60px;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.main{
+    background-color:  #0a141d;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.logo{
+    width: 300px;
+    height: 160px;
+}
+
+.lancamento{
+    display:flex;
+    flex-direction: row;
+    
+    padding: 20px;
+    gap: 40px;
+
+    background-color:  #0a141d;
+}
+
+.buy{
+    display: flex;
+    padding: 20px;
+   
+    background-color: goldenrod;
+
+    font-weight: bold;
+}
+
+h3{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    font-weight: bold;
+    color:green;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+
+    font-size: 20px;
+}
+
+.gta6{
+    width: 500px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.maior{
+    background-color:  #0a141d;
+
+    width: 465px;
+    height: 330px;
+    padding: 25px;
+}
+
+.img-maior{
+    width: 450px;
+}
+
+.img-menor{
+    width: 200px;
+}
+
+.menor{
+    background-color:  #0a141d;
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.cards-menor{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.left{
+    background-color:  #0a141d;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.right{
+    background-color:  #0a141d;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column-reverse;
+
+    gap: 20px;
+}
+
+.maior-direita{
+    background-color:  #0a141d;
+
+    width: 465px;
+    height: 330px;
+    padding: 25px;
+}
+.ofertas{
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+
+    padding: 20px;  
+
+    font-weight: bold;
+    
+    background-color: goldenrod;
+}

@@ -1,0 +1,50 @@
+body{
+   width: 1024px;
+   background-color: rgba(0, 0, 0, 0.929);
+   font-family: Arial, Helvetica, sans-serif;
+
+   margin: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 300px; 
+}
+
+h2{
+    color: white;
+}
+
+li{
+    font-weight: bold;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.main{
+    background-color:  #0a141d;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+    gap: 60px;
+}
+
+.logo{
+    width: 300px;
+    height: 160px;
+}
