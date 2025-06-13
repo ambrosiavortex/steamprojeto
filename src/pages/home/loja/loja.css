@@ -23,7 +23,8 @@ nav{
 }
 
 a{
-    color: white;
+    font-weight: bold;
+    color:green;
 }
 
 a:visited{
